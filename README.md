@@ -1,20 +1,30 @@
-## How to run
+## How to Run the Project
 
-- Install nix in your system: 
+- Install nix in your system:
+  ```
   sh <(curl -L https://nixos.org/nix/install) 
-or [Read here for more details](https://nixos.org/download).
+  ```
+  or [Read here for more details](https://nixos.org/download).
 
 - Run the command below to install the dependencies
-  nix develor
+  ```
+  nix develop
+  ```
 
 - Update composer
+  ```
   composer update
+  ```
 
 - Generate app_key
+  ```
   php artisan key:generate
+  ```
 
 - Run laravel project
+  ```
   php artisan serve
+  ```
 
 ## Learning Laravel
 
